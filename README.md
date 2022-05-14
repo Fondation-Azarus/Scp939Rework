@@ -7,6 +7,7 @@ A plug-in that adds features to SCP-939-XX.
 With this plug-in you can :
 - [x] Add a broadcast on spawn.
 - [x] Add effects on spawn.
+- [x] Change SCP-939-XXs' health and max health. 
 - [x] Adjust SCP-939-XXs' scale.
 - [x] Add effects to the victim.
 - [x] Add effects to SCP-939-XX when they receive damage.
@@ -16,6 +17,8 @@ With this plug-in you can :
 - [x] Boost or lower SCP-939-XXs' damage depending on whether they are close enough or not.
 
 And more...
+
+I strongly recommend using BetterScp for things like regeneration as I won't add them.
 
 Default configs :
 ```
