@@ -5,7 +5,7 @@ namespace Scp939Rework
     [PluginInformation(
         Name = "Scp939Rework",
         Author = "Bonjemus",
-        Description = "A plug-in that adds features to SCP-939-XX.",
+        Description = "A Synapse 2 plug-in that adds features to SCP-939-XX.",
         LoadPriority = 1,
         SynapseMajor = SynapseController.SynapseMajor,
         SynapseMinor = SynapseController.SynapseMinor,
