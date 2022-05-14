@@ -18,7 +18,7 @@ With this plug-in you can :
 
 And more...
 
-I strongly recommend using BetterScp for things like regeneration as I won't add them.
+**I strongly recommend using [Betterscp](https://github.com/SynapseSL/BetterScp) for things like regeneration as I won't add them.**
 
 Default configs :
 ```
