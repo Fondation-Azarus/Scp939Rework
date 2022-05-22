@@ -39,15 +39,6 @@ scale:
   x: 1
   y: 1
   z: 1
-  normalized: &o0
-    x: 0.577350259
-    y: 0.577350259
-    z: 0.577350259
-    normalized: *o0
-    magnitude: 1
-    sqrMagnitude: 0.99999994
-  magnitude: 1.73205078
-  sqrMagnitude: 3
 # What effects do SCP-939-XXs get when they spawn (duration: -1 = infinity) ? :
 spawnEffectConfigs:
 - effect: MovementBoost
