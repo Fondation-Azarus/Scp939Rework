@@ -12,6 +12,7 @@ namespace Scp939Rework
         {
             Server.Get.Events.Player.PlayerSetClassEvent += OnSetClass;
             Server.Get.Events.Player.PlayerDamageEvent += OnDamage;
+            Server.Get.Events.Player.PlayerDeathEvent += OnDeath;
         }
 
         private bool Is939(int roleID) => roleID == (int)RoleType.Scp93953 || roleID == (int)RoleType.Scp93989;
@@ -74,6 +75,12 @@ namespace Scp939Rework
                 foreach (Configs.EffectConfig ec in PluginClass.Configs.damageEffectConfigs)
                     ev.Victim.GiveEffect(ec.effect, ec.intensity, ec.duration);
             }
+        }
+
+        private void OnDeath(PlayerDeathEventArgs ev)
+        {
+            if (ev.Victim != null && Is939(ev.Victim.RoleID))
+                ev.Victim.Scale = Vector3.one;
         }
     }
 }

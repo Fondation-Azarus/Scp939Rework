@@ -25,7 +25,7 @@ namespace Scp939Rework
 
 
         [Description("SCP-939-XXs' scale :")]
-        public Vector3 scale = Vector3.one;
+        public SerializedVector3 scale = new SerializedVector3(Vector3.one);
 
 
         [Description("What effects do SCP-939-XXs get when they spawn (duration: -1 = infinity) ? :")]
